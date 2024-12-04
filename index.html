@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalom + Co. Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Fenix&family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<body>
+<header class="header">
+    <aside id="side-menu" class="side-menu">
+        <button class="close-menu" onclick="closeNav()">
+            <span class="material-symbols-outlined">
+            close
+            </span>
+        </button>
+        <div id="menu-links" class="menu-links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </aside>
+    <img src="images/shalom logo.png" alt="green logo" width="183" height="45">
+        <nav class="nav-link shalom-menu">   
+            <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                  <a href="#">Our Story</a>
+                  <a href="#">Mission Statement</a>
+                  <a href="#">Beliefs</a>
+                </div>
+                <a href="#" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Shop</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>           
+            <button class="material-symbols-outlined" onclick="openNav()">menu</button>
+        </nav>
+</header>
+<section class="hero-image">
+    <div class="container">
+        <div class="styled-textbox-2">
+            <h1 class="font-2">you're allowed to flourish</h1>
+            <p class="font-2 styled-textbox">Shalom + Co. exists to remind you that Jesus offers you abundant life. No matter what you’re facing, there is hope for you in Jesus! Sign up now to receive our monthly newsletter!</p>
+            <a class="white-color btn lightbox-243315961274054">Sign Up</a>
+        </div>
+    </div>
+</section>
+<section class="background-two">
+    <div class="container">
+        <div class="row white-color padding align-middle">
+            <div class="col-lg-6">
+                <img src="images/blog-photo.jpg" alt="bible" width="416" height="278">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="font-heading">How to Read the Bible</h2>
+                <p class="font">Helpful tips on reading and studying Scripture!</p>
+                <a class="btn green-color" href="#">read blog</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="background-three padding">
+    <h2 class="font-heading text-center white-color-heading text-center">shop</h2>
+    <div class="container">
+        <div class="row justify-content">
+            <div class="col-lg-4 text-center margin-bottom">
+                <div>
+                    <img src="images/bible.jpg" alt="bible" width="400" height="200">
+                </div>  
+                <a class="btn dark-green-color" href="#">shop bibles</a>
+            </div>
+            <div class="col-lg-4 text-center margin-bottom">
+                <div>    
+                <img src="images/devo.jpg" alt="book" width="400" height="200">
+                </div>
+                <a class="btn dark-green-color" href="#">shop devos</a>
+            </div>
+            <div class="col-lg-4 text-center margin-bottom">
+                <div>    
+                    <img src="images/prints.jpg" alt="watercolor print" width="400" height="200">
+                </div>
+                <a class="btn dark-green-color" href="#">shop prints</a>
+            </div>
+        </div>
+    </div>           
+</section>
+<footer>
+    <div class="white-color">
+        <div class="background-four">
+            <div>
+                <h2 class="font-heading">social</h2>
+                <a>
+                    <img src="images/social media icons dark green.png" alt="Instagram logo" width="180" height="40">
+                </a>
+            </div>
+            <div>
+                <h2 class="font-heading">brand mission</h2>
+                <p class="font">Abundant life in Jesus.
+                    John 10:10.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script>
+        function openNav() {
+            document.getElementById("side-menu").style.width = "250px";
+            document.getElementById("menu-links").style.opacity = "1";
+        }
+        function closeNav() {
+            document.getElementById("side-menu").style.width = "0";
+            document.getElementById("menu-links").style.opacity = "0";
+        }
+    </script>    
+    <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var JFL_243315961274054 = new JotformFeedback({
+          formId: '243315961274054',
+          base: 'https://form.jotform.com/',
+          windowTitle: 'Form',
+          backgroundColor: '#FFA500',
+          fontColor: '#FFFFFF',
+          type: '0',
+          height: 500,
+          width: 700,
+          openOnLoad: false
+        });
+    </script>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='243315961274054']", "https://form.jotform.com/")</script>
+</body>
+</html>

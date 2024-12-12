@@ -130,7 +130,14 @@ p {
     display: inline-block;
     text-decoration: none;
     padding: 8px 14px;
+    color: #f2efe9;
+}
+.btn-2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 14px;
     color: #212b40;
+    background-color: #F2EFE9;
 }
 .white-color {
     background-color: #f2efe9;
@@ -177,7 +184,11 @@ p {
     cursor: pointer;
 }
 .open-menu {
-    position: absolute;
+    top: 35px;
+    right: 25px;
+    overflow: hidden;
+    transition: .5s;
+    display: none;
 }
 .side-menu {
     position: fixed;
@@ -221,7 +232,7 @@ p {
     'wght' 400,
     'GRAD' 0,
     'opsz' 24
-}
+} 
 /* Dropdown Button */
 .dropbtn {
     background-color: #454F41;
@@ -294,6 +305,13 @@ p {
     }
     .dropdown {
         display: none;
+    }
+    .open-menu {
+        top: 35px;
+        right: 25px;
+        overflow: hidden;
+        transition: .5s;
+        display:inherit!important;
     }
 }
  
